@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
     <link rel="icon" type="image/x-icon" href="/res/favicon_io/favicon.ico">
+    <style>
+        table, th, td {
+            border: 3px solid black;
+            border-collapse: collapse;
+        }
+    </style>
 </head>
 <body>
     <h1 style="text-align: center;"><em> Amit's Resume</em></h1>
@@ -12,23 +18,122 @@
         <div id="ProfilePic" style="width: 10%;min-width: 80px;">
             <img style="display: inline-block;" src="/res/ProfilePic.jpg" alt="Amit's Profile Pic" height="150">
         </div>
-        <div id="ContactDetails" style="margin-left: 10px; width: 90%; min-width: 200px">
-            <p style="text-align: start;">
-                <address>
-                    <strong><b><u>Contact Details</u></b></strong><br><br>
-                    <i><b>Name</b></i> : Amit Jana<br>
-                    <i><b>Address</b></i> : BD-125, Street 174, Action area-I,Newtown, Kolkata 700157<br>
-                    <i><b>Mobile no.</b></i> : 8178942830<br>
-                    <i><b>E-mail</b></i> : ritikjana1@gmail.com<br>
-                </address>
-            </p>
+        <div id="ContactDetails" style="margin-left: 10px; width: 45%; min-width: 200px">
+            <address>
+                <strong><b><u>Contact Details</u></b></strong><br><br>
+                <i><b>Name</b></i> : Amit Jana<br>
+                <i><b>Address</b></i> : BD-125, Street 174, Action area-I,Newtown, Kolkata 700157<br>
+                <i><b>Mobile no.</b></i> : 8178942830<br>
+            </address>
+        </div>
+        <div id="ImportantLink" style="width: 45%; min-width: 200px;">
+            <strong><b><u> Important Links</u></b></strong>
+            <br><br>
+            <ul>
+                <li>
+                    <a style="text-decoration: none;" href="https://github.com/amitjana28">
+                        <em><b><u>Github Link</u> : </b>https://github.com/amitjana28</em>
+                    </a>
+                </li>
+                <li>
+                    <a style="text-decoration: none;" href="https://www.linkedin.com/in/amit-jana-bb672b208/">
+                        <em><b><u>Linkedin Link</u> : </b>https://www.linkedin.com/in/amit-jana-bb672b208/</em>
+                    </a>
+                </li>
+                <li>
+                    <a style="text-decoration: none;" href="mailto:ritikjana1@gmail.com">
+                        <em><b><u>Gmail</u> : </b>ritikjana1@gmail.com</em>
+                    </a>
+                </li>
+            </ul>
         </div>
     </div>
-    <div style="float: inline-end;width: 100%;">
-        <hr>
-        <p> This is a paragraph tag. This is used to write a paragraph.</p>
-        <p> This is a new paragraph to check how different paragraph's are look like.</p>
-        <br><a href="https://github.com/amitjana28/FrontEndDevelopment"><em>Amit's Github Link</em></a>
+    <div style="width: 100%; min-width: 100%; margin-top: 5%;"></div>
+    <div style="display: flex;width: 100%; margin-top: 15px;">
+        <div id="Education" style="width: 45%; min-width: 300px;">
+            <strong><b><u>Qualifications</u></b></strong><br><br>
+            <table style="width: 100%;">
+                <tr>
+                    <th style="width: 30%;"> Degree</th>
+                    <th style="width: 40%;"> Institution</th>
+                    <th style="width: 30%;"> Score</th>
+                </tr>
+                <tr>
+                    <td> B-Tech CSE</td>
+                    <td class="InstituteName"> University Institute of Engineering and Technology, Kurukshetra University (2018-22)</td>
+                    <td> 7.5 CGPA</td>
+                </tr>
+                <tr>
+                    <td> Senior secondary (12th)</td>
+                    <td class="InstituteName"> B.N.Public School,Faridabad (CBSE)</td>
+                    <td> 7.8 CGPA</td>
+                </tr>
+                <tr>
+                    <td> secondary(10th)</td>
+                    <td class="InstituteName"s> B.N.Public School,Faridabad (CBSE)</td>
+                    <td> 8 CGPA</td>
+                </tr>
+            </table>
+        </div>
+        <div id="Skills" style="width: 45%; min-width: 200px; margin-left: 10%;">
+            <strong><b><u> Skills</u></b></strong>
+            <dl>
+                <dt style="margin-left: 10px;"><B> Programming Languages</B></dt>
+                <dd>- Java </dd>
+                <dd>- HTML, CSS, JAVASCRIPT </dd>
+                <dd>- PYTHON </dd>
+                <dd>- SQL </dd>
+                <dt style="margin-left: 10px;"><B> Tools</B></dt>
+                <dd>- <B> Version Controls </B> : Github, Source tree </dd>
+                <dd>- <B>Editors </B>: VSCode, Eclipse, Android Studio </dd>
+                <dd>- <B>Technologies </B> : Appium, WebdriverIO, Selenium, SauceLabs, Postman </dd>
+                <dd>- <B>Tools</B> : Jira, TestRail </dd>
+            </dl>
+        </div>
     </div>
+    <div style="width: 100%; min-width: 100%; margin-top: 5%;"></div>
+    <div style="display: flex;width: 100%; margin-top: 15px;">
+        <div id="Projects" style="margin-left: 10px; width: 45%; min-width: 300px">
+            <strong><b><u>Projects</u></b></strong><br><br>
+            <table style="width: 100%;">
+                <tr>
+                    <th style="width: 30%;"> Project Name</th>
+                    <th style="width: 40%;"> Discription</th>
+                    <th style="width: 30%;"> Tools & Technologies Used</th>
+                </tr>
+                <tr>
+                    <td> Snake Game</td>
+                    <td class="InstituteName"> Console Based Snake Game</td>
+                    <td> C Language</td>
+                </tr>
+                <tr>
+                    <td> Fantasy criket Game</td>
+                    <td class="InstituteName"> Desktop UI Game (CBSE)</td>
+                    <td> Python, Tkinter, MySQL, VSCode</td>
+                </tr>
+                <tr>
+                    <td> MemeCard & Secret</td>
+                    <td class="InstituteName"s> Social media Android application for chating and post sharing</td>
+                    <td> Android Studio, Java, Xml, Firebase</td>
+                </tr>
+                <tr>
+                    <td> Anapurna</td>
+                    <td class="InstituteName"s> Food donation Android application</td>
+                    <td> Android Studio, Java, Xml, Firebase</td>
+                </tr>
+            </table>
+        </div>
+        <div id="Work Experience" style="width: 45%; min-width: 200px; margin-left: 10%;">
+            <strong><b><u> Work Experience</u></b></strong>
+            <dl>
+                <dt style="margin-left: 10px;"><B> Role : Frontend Android Developer</B></dt>
+                <dd>-Work as an Intern android developer in Onetick Technology from 13 july 2021 to 25 August 202</dd>
+                <dt style="margin-left: 10px;"><B> Role : Software Engineer</B></dt>
+                <dd>- Work as a Software engineer in Bebo technologies from 16th  march 2022 to 10th July 2024 now</dd>
+            </dl>
+        </div>
+    </div>
+    <div style="width: 100%; min-width: 100%; margin-top: 5%;"></div>
+    
 </body>
 </html>
